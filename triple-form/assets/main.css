@@ -1,0 +1,178 @@
+html{
+    height: 100%;
+}
+body {
+    background-image: url(https://media.istockphoto.com/id/1308415974/photo/office-desktop-with-computer-and-accessories.jpg?b=1&s=170667a&w=0&k=20&c=h_J4E0S7CrcqNzjtNqjcJWaiVACbPOfNayF57RqYJ3U=);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.content-name{
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 550;
+    padding-bottom: 60px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.contact-section {
+    height: 280px;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.option {
+    position: absolute;
+}
+
+.img-option {
+    
+    display: flex;
+    height: 310px;
+    width: 370px;
+}
+
+.button_option {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.btn-option {
+    height: 33.33333%;
+    width: 140%;
+    background-color: #fff;
+    border: 10cm;
+}
+
+.btn-option_color {
+    background-color: #fff;
+}
+
+.btn-option_change_color {
+    background-color: #00960e;
+}
+
+.mystyle {
+    background-color: green;
+    color: white;
+}
+
+
+.icon-btn {
+    height: 100%;
+}
+
+.fa-solid {
+    width: 100%;
+}
+
+.login_form
+{
+    display: block;
+}
+
+.register_form{
+    display: none;
+}
+
+.foget_password_form{
+    display: none;
+}
+
+.login_form,
+.register_form,
+.foget_password_form{
+    
+    position: relative;
+    height: 310px;
+    width: 360px;
+    background-color: #fff;
+    float: right;
+    width: 50%;
+}
+
+.header-login{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family:Helvetica, Arial, sans-serif ;
+}
+
+.body-login{
+   padding: 0 16px;
+   box-sizing: border-box;
+}
+
+.body-input{
+    border: 1px solid #ccc;
+    width: 94%;
+    padding: 6px 0px 6px 25px;
+    font-size: 15px;
+    margin-bottom: 14px;
+    
+}
+
+.fa-envelope{
+    position:absolute;
+    padding: 7px 0px 0 7px;
+}
+
+.input-email{
+    position: relative;
+}
+
+.fa-key{
+    position:absolute;
+    padding: 7px 0px 0 7px;
+}
+
+.input-password{
+    position: relative;
+}
+
+.btn-login{
+    margin-top: 14px;
+    background-color: #00960e;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-login:hover {
+    opacity: 0.8;
+}
+
+.login_button {
+    text-align: center;
+}
+
+.footer-login{
+    padding: 25px;
+    text-align: center;
+}
+
+.footer-text {
+    text-decoration: none;
+    color: rgb(86, 72, 72, 0.9);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.footer-text{
+    text-align: center;
+    padding: 120px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #000;
+}
