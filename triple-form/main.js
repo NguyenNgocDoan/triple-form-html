@@ -30,7 +30,7 @@
   var fogetPasswordForm = document.getElementById('foget_password_id')
 
   login.onclick = function() {
-    login.classList.toggle("mystyle");
+    login.classList.add("mystyle");
     register.classList.remove("mystyle");
     foget_password.classList.remove("mystyle");
 
@@ -40,7 +40,7 @@
   }
 
   register.onclick = function() {
-    register.classList.toggle("mystyle");
+    register.classList.add("mystyle");
     login.classList.remove("mystyle");
     foget_password.classList.remove("mystyle");
 
@@ -52,7 +52,7 @@
   foget_password.onclick = function() {
     register.classList.remove("mystyle");
     login.classList.remove("mystyle");
-    foget_password.classList.toggle("mystyle");
+    foget_password.classList.add("mystyle");
 
     loginForm.style.display = "none";
     registerForm.style.display = "none";
